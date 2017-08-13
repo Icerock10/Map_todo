@@ -8,3 +8,4 @@ $ cd server
 
 $ node app.js
 
+Then move to localhost:3000
