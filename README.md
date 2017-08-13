@@ -1,8 +1,12 @@
 # Usage:
 
+$ cd Map_todo
+
 $ npm install
 
 $ npm start
+
+Open new terminal
 
 $ cd server
 
