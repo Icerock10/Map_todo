@@ -1,0 +1,26 @@
+{
+  "name": "anadea",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-geocoder": "^0.2.1",
+    "react": "^15.6.1",
+    "react-axios": "^1.0.3",
+    "react-classnames": "^0.1.2",
+    "react-dom": "^15.6.1",
+    "react-google-maps": "^7.2.0",
+    "react-google-maps-loader": "^3.0.1",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "install": "cd server && npm i && cd",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
